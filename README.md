@@ -1,5 +1,5 @@
 
-## 1. Use of Enums in TypeScript
+##  Use of Enums in TypeScript
 
 Enums allow us to define a set of named constants, making code more readable and maintainable. They can be **numeric** or **string-based**.
 
