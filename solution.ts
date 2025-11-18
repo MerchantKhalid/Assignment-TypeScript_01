@@ -1,4 +1,3 @@
-// Problem 1
 function formatValue(
   value: string | number | boolean
 ): string | number | boolean {
@@ -11,7 +10,6 @@ function formatValue(
   }
 }
 
-// Problem 2
 function getLength(value: string | any[]): number {
   if (typeof value === 'string') {
     return value.length;
@@ -21,7 +19,6 @@ function getLength(value: string | any[]): number {
   return 0;
 }
 
-// Problem 3
 class Person {
   name: string;
   age: number;
@@ -36,21 +33,18 @@ class Person {
   }
 }
 
-// Problem 4
 function filterByRating(
   items: { title: string; rating: number }[]
 ): { title: string; rating: number }[] {
   return items.filter((item) => item.rating >= 4);
 }
 
-// Problem 5
 function filterActiveUsers(
   users: { id: number; name: string; email: string; isActive: boolean }[]
 ): { id: number; name: string; email: string; isActive: boolean }[] {
   return users.filter((user) => user.isActive === true);
 }
 
-// Problem 6
 interface Book {
   title: string;
   author: string;
@@ -63,7 +57,6 @@ function printBookDetails(book: Book): string {
   return `Title: ${book.title}, Author: ${book.author}, Published: ${book.publishedYear}, Available: ${availableText}`;
 }
 
-// Problem 7
 function getUniqueValues(
   arr1: (string | number)[],
   arr2: (string | number)[]
@@ -85,7 +78,6 @@ function getUniqueValues(
   return result;
 }
 
-// Problem 8
 function calculateTotalPrice(
   products: {
     name: string;
